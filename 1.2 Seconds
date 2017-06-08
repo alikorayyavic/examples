@@ -1,0 +1,8 @@
+//Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
+
+
+var secondsInAHour = 60 * 60
+var secondsInADay = secondsInAHour * 24
+var secondsInAYear = secondsInADay * 365
+
+print(secondsInAYear)
