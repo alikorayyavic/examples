@@ -1,0 +1,11 @@
+//You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
+let sum = 16 // a + b 
+let diff = 4 // a - b
+
+
+
+var a = (sum + diff)/2
+print(a)
+
+var b = sum - a
+print(b)
