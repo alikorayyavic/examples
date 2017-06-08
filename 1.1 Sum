@@ -1,0 +1,6 @@
+//You are given two variables a and b, compute their sum and store it in another variable named sum then print the result.
+
+var a = 1
+var b = 2
+var sum = a + b 
+print(sum)
