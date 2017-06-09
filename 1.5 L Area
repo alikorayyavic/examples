@@ -1,0 +1,14 @@
+/* You are given four variables width, height, x, y that describe the dimensions of a L-shape as shown in the image below. Determine the perimeter and area of the described L-shape. 
+Store the value of the perimeter in a variable named perimeter, and the area in a variable named area.*/
+
+var width = 8
+var height = 12
+var x = 2
+var y = 3
+
+var perimeter = 2 * ( height + width)
+
+var area = (height * width) - (width - x) * (height - y)
+
+print(perimeter, area)
+ 
