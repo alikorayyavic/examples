@@ -1,0 +1,11 @@
+//You are given two numbers a and b print the largest one.
+var a = 11
+var b = 22
+
+// your code here
+if a > b {
+    print(a)
+}
+else{
+ print(b)
+}
