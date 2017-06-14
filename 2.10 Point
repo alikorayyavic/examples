@@ -1,0 +1,64 @@
+/*Find out if the point (x, y) is inside of the rectangle with the lower-left corner in (lowX, lowY) and the upper-right in (highX, highY). 
+Print inside or not inside depending on the case. */
+
+var x = 1
+var y = 2
+var lowX = 1
+var lowY = 1
+var highX = 3
+var highY = 3
+
+// your code here
+
+
+if  x >= lowX && x <= highX && y >= lowY && y <= highY{
+    print("inside")
+}
+else {print("not inside")}
+
+//Evaluation
+
+var x = 2
+var y = 5
+var lowX = 12
+var lowY = 14
+var highX = 44
+var highY = 37
+not inside
+not inside
+✅
+var x = 5
+var y = 3
+var lowX = 44
+var lowY = 34
+var highX = 78
+var highY = 56
+not inside
+not inside
+✅
+var x = 45
+var y = 47
+var lowX = 9
+var lowY = 46
+var highX = 89
+var highY = 75
+inside
+inside
+✅
+var x = 10
+var y = 22
+var lowX = 32
+var lowY = 39
+var highX = 90
+var highY = 73
+not inside
+not inside
+✅
+var x = 23
+var y = 14
+var lowX = 9
+var lowY = 7
+var highX = 67
+var highY = 78
+inside
+inside
